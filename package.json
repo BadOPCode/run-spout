@@ -1,0 +1,19 @@
+{
+  "name": "run-spout",
+  "version": "1.0.0",
+  "description": "Another minimalist task runner.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BadOPCode/run-spout.git"
+  },
+  "author": "Shawn Rapp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BadOPCode/run-spout/issues"
+  },
+  "homepage": "https://github.com/BadOPCode/run-spout"
+}
