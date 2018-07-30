@@ -18,9 +18,11 @@
         "url": "https://github.com/BadOPCode/run-spout/issues"
     },
     "homepage": "https://github.com/BadOPCode/run-spout",
-    "devDependencies": {
+    "dependencies": {
         "alsatian": "^2.2.1",
-        "tslint": "^5.11.0",
         "typescript": "^2.9.2"
+    },
+    "devDependencies": {
+        "tslint": "^5.11.0"
     }
 }
