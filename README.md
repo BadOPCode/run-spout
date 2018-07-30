@@ -1,2 +1,7 @@
 # run-spout
 Yet another minimalist Node task runner module.
+
+## What and Why
+Run-spout is not grunt or gulp. If your looking for something to run OS commands you might be interested in Fullstack Serve, which uses this module as a component.  This specific library is instead meant as a means of controlling and executing of JavaScript tasks.  Tasks are entered into spout and there is a pre-determined wait time, while in this wait time if the same task is entered again it will reset the wait time on the timer.  This prevents tasks from being spam executed.
+There are many times like when using JavaScript events that a function will be fired multiple times but your only interested in running the task once.  A good example is with file IO changes.  Many watchers will execute multiple times when a file is added.  One for the directory file system which changed and one for the new file added.  With run-spout you can pour these seemingly identical tasks into a single task.  Another use might be if your using Angular or React and a task kicks off a render event but by going through the render it might kick off another render.
+The objective of run-spout is to give a minimalist approach to simplify handling a flood of similar tasks.
