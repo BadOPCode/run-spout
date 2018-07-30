@@ -24,4 +24,5 @@ export class OldRunSpout extends RunSpout {
     }
 }
 
+export * from "./RunSpout";
 export default new OldRunSpout();
