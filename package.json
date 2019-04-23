@@ -1,6 +1,6 @@
 {
     "name": "run-spout",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "description": "Another minimalist task runner.",
     "main": "index.js",
     "scripts": {
@@ -18,10 +18,11 @@
         "url": "https://github.com/BadOPCode/run-spout/issues"
     },
     "homepage": "https://github.com/BadOPCode/run-spout",
-    "dependencies": {},
-    "devDependencies": {
+    "dependencies": {
         "alsatian": "^2.4.0",
-        "tslint": "^5.16.0",
         "typescript": "^3.4.5"
+    },
+    "devDependencies": {
+        "tslint": "^5.16.0"
     }
 }
