@@ -4,6 +4,7 @@
     "description": "Another minimalist task runner.",
     "main": "index.js",
     "scripts": {
+        "install": "npm run build",
         "build": "tsc && npm test",
         "test": "alsatian dist/tests/**/*.js"
     },

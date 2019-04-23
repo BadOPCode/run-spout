@@ -2,4 +2,4 @@
 
 'use strict';
 
-module.exports = require("./dist/OldRunSpout");
+module.exports = require("./dist/OldRunSpout").default;
