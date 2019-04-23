@@ -20,8 +20,8 @@
     "homepage": "https://github.com/BadOPCode/run-spout",
     "dependencies": {},
     "devDependencies": {
-        "tslint": "^5.11.0",
-        "alsatian": "^2.2.1",
-        "typescript": "^2.9.2"
+        "alsatian": "^2.4.0",
+        "tslint": "^5.16.0",
+        "typescript": "^3.4.5"
     }
 }
