@@ -8,20 +8,19 @@ export class OldRunSpout extends RunSpout {
     public static STATES = STATES;
 
     public TASK = {
-        create: this.taskCreateTask,
+        create: (label: string, delay: number, callbackFunction: () => void) => {
+            return super.createTask(label, delay, callbackFunction);
+        },
     };
 
     public kill() {
-        this.stop();
+        super.stop();
     }
 
     public calculateFireTime(delay: number): number {
-        return this.calculateEventFireTime(delay);
+        return super.calculateEventFireTime(delay);
     }
 
-    public taskCreateTask(label: string, delay: number, callbackFunction: () => void) {
-        return this.createTask(label, delay, callbackFunction);
-    }
 }
 
 export * from "./RunSpout";
