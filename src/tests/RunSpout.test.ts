@@ -59,7 +59,7 @@ export class TestRunSpout {
         return new Promise((resolve, reject) => {
             this.specRS.run();
             this.specRS.makeNewTask("test3", 500, () => {
-                resolve();
+                resolve({});
             });
 
         });
